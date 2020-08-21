@@ -1,0 +1,50 @@
+.links-subFooter {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #597e90;
+    .dropbtn {
+        background-color: transparent;
+        color: white;
+        padding: 16px;
+        border: none;
+        width: 100%;
+        box-sizing: border-box;
+        height: 100%;
+        transition: all .3s;
+        &:hover {
+            background-color: #525252;
+        }
+    }
+    .dropup-footer {
+        position: relative;
+        display: inline-block;
+        height: 80px;
+        width: 25%;
+    }
+    .dropup-content {
+        display: none;
+        position: absolute;
+        background-color: rgba(100, 102, 105, .9);
+        right: 0;
+        padding: 21px 20px;
+        width: 250%;
+        bottom: 80px;
+        z-index: 1;
+        h2 {
+            color: #fff;
+        }
+    }
+    .dropup-content a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        font-size: 11px;
+    }
+    .dropup-content a:hover {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .dropup-footer:hover .dropup-content {
+        display: block;
+    }
+}

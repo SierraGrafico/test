@@ -1,0 +1,109 @@
+// FULL SLIDER
+section.homeSlider {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    .carousel-item {
+        height: 100vh;
+        min-height: 350px;
+        img.slider-webdesk {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        img.slider-mov {
+            display: none;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        z-index: 2;
+        background: #2A5BA7;
+        opacity: 1;
+        height: auto;
+        top: initial;
+        bottom: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .carousel-control-next {
+        width: 70px;
+        height: 75px;
+        right: unset;
+        top: 50vh;
+        left: 570px;
+        bottom: unset;
+    }
+    .carousel-control-prev {
+        width: 70px;
+        height: 75px;
+        right: unset;
+        top: 50vh;
+        left: 0px;
+        bottom: unset;
+    }
+    .carousel-caption {
+        background: #254D92;
+        width: 500px;
+        height: 75px;
+        top: 50vh;
+        padding: 15px 0;
+        left: 70px;
+        right: unset;
+        bottom: unset;
+        h2 {
+            font-size: 19px;
+            font-weight: 900;
+            text-transform: uppercase;
+            margin-bottom: 0px;
+        }
+        a.lead {
+            font-size: 14px;
+            color: $white;
+            font-weight: normal;
+            text-decoration: none;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .carousel-item {
+            img.slider-webdesk {
+                display: none;
+            }
+            img.slider-mov {
+                display: block;
+            }
+        }
+    }
+}
+
+.vigilado-movil {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    img {
+        width: 15px;
+        height: auto;
+    }
+}
+
+.vigilado {
+    position: absolute;
+    bottom: 50vh;
+    z-index: 2;
+    img {
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+.norton {
+    position: absolute;
+    bottom: 35px;
+    z-index: 2;
+    right: 10px;
+}

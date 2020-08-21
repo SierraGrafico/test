@@ -1,0 +1,231 @@
+    @media only screen and (max-width: 991.3px) {
+        section.menu-area {
+            margin-top: 0px;
+            .navbar-expand-lg .navbar-collapse {
+                height: auto;
+            }
+            .navbar-collapse .navbar-nav {
+                flex: 1;
+                flex-direction: column;
+            }
+            .menu-sup {
+                width: 30%;
+                padding: 0;
+                background: rgba(37, 50, 53, 1);
+                float: right;
+                margin-top: 2px;
+            }
+            .flecha-caret {
+                transform: rotate(90deg);
+            }
+            .navbar-expand-lg .navbar-collapse {
+                background-color: transparent;
+            }
+            .ingreso {
+                background-color: transparent;
+            }
+            .menu-sup>li {
+                width: 100%;
+                padding: 0px;
+                border-bottom: 1px solid #fff;
+                text-align: left;
+                display: initial;
+            }
+            .mainmenu ul li a {
+                padding-right: 5px;
+                margin: 15px 0;
+                padding-left: 10px;
+            }
+            .mainmenu ul li a:before {
+                content: ''!important;
+            }
+            .mainmenu ul li ul {
+                background: rgba(88, 108, 105, 0.8)!important;
+                border-top: 1px solid #fff!important;
+                li {
+                    padding: 5px 0px;
+                    border-bottom: 1px solid #fff;
+                    ul {
+                        background: rgb(105, 136, 131)!important;
+                        li {
+                            ul {
+                                background: rgb(111, 156, 149)!important;
+                            }
+                        }
+                    }
+                    &:last-child {
+                        border-bottom: transparent;
+                    }
+                }
+            }
+            .menu-sup>li:last-child {
+                width: auto;
+            }
+            .dropdown-menu::after {
+                padding-top: 0;
+            }
+        }
+        .navbar-nav .show .dropdown-menu .dropdown-menu>li>a {
+            padding: 0 10px;
+        }
+        .navbar-nav .show .dropdown-menu .dropdown-menu .dropdown-menu>li>a {
+            padding: 0 10px;
+        }
+        section.homeSlider {
+            .carousel-control-next {
+                width: 90px;
+                height: 75px;
+                top: 70vh;
+                right: 10%;
+                left: unset;
+                bottom: unset;
+            }
+            .carousel-control-prev {
+                width: 90px;
+                height: 75px;
+                right: unset;
+                top: 70vh;
+                left: 10%;
+                bottom: unset;
+            }
+            .carousel-caption {
+                background: #254D92;
+                width: 60%;
+                height: 75px;
+                top: 70vh;
+                padding: 15px 0;
+                left: 20%;
+                right: unset;
+                bottom: unset;
+                h2 {
+                    font-size: 19px;
+                    font-weight: 900;
+                    text-transform: uppercase;
+                    margin-bottom: 0px;
+                }
+                a.lead {
+                    font-size: 14px;
+                    color: $white;
+                    font-weight: normal;
+                    text-decoration: none;
+                }
+            }
+        }
+        section.titulo-pag {
+            img {
+                display: inline-block;
+                margin-top: 0px;
+                width: 25px;
+            }
+            h1 {
+                font-size: 0.9rem;
+                margin-left: 5px;
+            }
+        }
+        section.banner-interno {
+            margin-top: 0px;
+            height: 25vh;
+        }
+        section.sub-footer {
+            bottom: 27px;
+        }
+        footer.final {
+            .txt-footer {
+                justify-content: center;
+            }
+        }
+        section.interna {
+            .table {
+                th {
+                    text-align: right;
+                }
+                td.st-key {
+                    text-align: left;
+                    padding: 0;
+                    margin: 0;
+                    border: none;
+                }
+                td.st-val {
+                    text-align: right;
+                    padding: 0;
+                    margin: 0;
+                    border: none;
+                }
+            }
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        section.portal_tabs {
+            .panel-body {
+                padding: 10px 0;
+            }
+        }
+        section.interna .links-generales a .link-general {
+            border-bottom-style: dotted;
+            border-width: 1px;
+            border-color: #989898;
+        }
+        .iconos-compartir {
+            margin-top: 10px;
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (max-width: 767px) {}
+    
+    @media only screen and (max-width: 568px) {
+        section.menu-area {
+            .menu-sup {
+                width: 60%;
+            }
+        }
+        section.homeSlider {
+            .carousel-control-next {
+                width: 50px;
+                height: 75px;
+                top: 70vh;
+                right: 5%;
+                left: unset;
+                bottom: unset;
+            }
+            .carousel-control-prev {
+                width: 50px;
+                height: 75px;
+                right: unset;
+                top: 70vh;
+                left: 5%;
+                bottom: unset;
+            }
+            .carousel-caption {
+                background: #254D92;
+                width: 80%;
+                height: 75px;
+                top: 70vh;
+                padding: 10px 40px;
+                left: 10%;
+                right: unset;
+                bottom: unset;
+                h2 {
+                    font-size: 15px;
+                    font-weight: 900;
+                    text-transform: uppercase;
+                    margin-bottom: 0px;
+                }
+                p {
+                    line-height: 1;
+                    a.lead {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+    
+    @media only screen and (max-width: 420px) {
+        footer.final .txt-footer {
+            font-size: 8px;
+        }
+    }

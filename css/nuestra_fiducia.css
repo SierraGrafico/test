@@ -1,0 +1,14 @@
+/* line 2, ../scss/nuestra_fiducia.scss */
+body.nuestra_fiducia section.titulo-pag {
+  position: relative;
+  background: #796930;
+  padding: 7px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+/* line 9, ../scss/nuestra_fiducia.scss */
+body.nuestra_fiducia .acordeon-activo {
+  opacity: .8; }
